@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="main">
+        <header>
+            <!-- <div class="head container">
+                <div class="head-logo">
+                    <div class="head-logo-img">
+                        <img src="image/sushi-logo.png" alt="">
+                    </div>
+                    <h2>Sushi Delivery</h2>
+                </div>
+                
+            </div> -->
+            <div class="menu">
+                <div class="container">
+                    <div class="menu-flex">
+                        <div class="menu-button">
+                    
+                        </div>
+                        <div class="menu-additionally">
+                            <div class="menu-search">
+                                <input type="text">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                            <div class="head-basket-icon">
+                                <i class="fa fa-cart-plus" aria-hidden="true" id="basket-button"></i>
+                                <!-- <p class="head-basket-count">0</p> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        
+        <div class="product container">
+            
+        </div>
+        <div class="basket">
+            <button class="basket-close-button">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+            <div class="basket-empty">
+                <h2>Ваша корзина пуста...</h2>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+            <div class="basket-card"></div>
+            <div class="basket-price">
+                <h4>Общая стоимость:</h4>
+                <p class="basket-change-price"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="./scripts/productCard.js"></script>
+    <script type="module" src="./scripts/filterProduct.js"></script>
+    <script type="module" src="./scripts/cutText.js"></script>
+    <script type="module" src="./scripts/basket.js"></script>
+</body>
+</html>
