@@ -1,0 +1,73 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.product-card {
+    height: 400px;
+    width: 22%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+.product-card:hover {
+    border: 1px solid #fc4024;
+    box-shadow: 0 0 10px #fecab1; 
+}
+.product-image {
+    height: 50%;
+}
+.product-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.product-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #fc4e03;
+    position: relative;
+}
+.product-description h4, p {
+    margin: 10px 0px;
+    font-family: 'Montserrat';
+}
+.product-description h4 {
+    font-size: 14px;
+}
+.product-description p {
+    font-size: 12px;
+    text-align: center;
+    color: #1f0e30;
+}
+.product-description button {
+    margin: 10px 0;
+    padding: 5px 15px;
+    border: 1px solid #fc4e03;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fc4e03;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    transition: .2s;
+}
+.product-description button:hover {
+    background-color: #fc4e03;
+    color: #fff;
+}
+
+.product-discount {
+    position: absolute;
+    right: 30px;
+    top: -30px;
+    background-color: #ff0000;
+}
+.product-discount p{
+    color: #fff;
+    margin: 0;
+    padding: 5px 15px;
+}
